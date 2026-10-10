@@ -1,0 +1,114 @@
+site_name: Ethical Hacking Mastery Path
+site_description: A hands-on ethical hacking course from legal foundations to a full engagement — lab setup, reconnaissance, web and network testing against deliberately vulnerable practice targets, and professional reporting. Strictly authorized, lab-only, defensive-minded.
+site_url: https://sigilipelli.github.io/ethical-hacking-mastery-path/
+repo_url: https://github.com/sigilipelli/ethical-hacking-mastery-path
+repo_name: ethical-hacking-mastery-path
+
+theme:
+  name: material
+  favicon: assets/favicon.svg
+  custom_dir: docs/overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/progress-tracker.css
+
+extra_javascript:
+  - javascripts/progress-tracker.js
+
+nav:
+  - Home: index.md
+  - Privacy Policy: privacy.md
+  - License: license.md
+  - "Level 1 · Foundations & Legal Lab":
+      - Overview: level-1/index.md
+      - "01 · What Ethical Hacking Is — Authorization, Scope & the Law": level-1/01-what-ethical-hacking-is.md
+      - "02 · Building a Legal, Isolated Practice Lab": level-1/02-building-a-lab.md
+      - "03 · The Penetration Testing Lifecycle": level-1/03-pentest-lifecycle.md
+      - "04 · The Linux Command Line You'll Actually Use": level-1/04-linux-command-line.md
+      - "05 · Networking Through a Tester's Lens": level-1/05-networking-for-testers.md
+      - "06 · Passive Reconnaissance & OSINT": level-1/06-passive-recon-osint.md
+      - "07 · Active Scanning with Nmap": level-1/07-active-scanning-nmap.md
+      - "08 · Service Enumeration": level-1/08-service-enumeration.md
+      - "09 · Vulnerabilities, CVE & CVSS": level-1/09-vulnerabilities-cve-cvss.md
+      - "10 · Project — Recon & Enumeration of Your Lab Range": level-1/10-project-recon-enumeration.md
+  - "Level 2 · Web Application Testing":
+      - Overview: level-2/index.md
+      - "01 · How Web Apps Work & the Testing Mindset": level-2/01-how-web-apps-work.md
+      - "02 · Using an Intercepting Proxy": level-2/02-intercepting-proxy.md
+      - "03 · Injection Flaws & SQL Injection": level-2/03-sql-injection.md
+      - "04 · Cross-Site Scripting (XSS)": level-2/04-xss.md
+      - "05 · Broken Authentication & Sessions": level-2/05-broken-authentication.md
+      - "06 · Broken Access Control & IDOR": level-2/06-access-control-idor.md
+      - "07 · SSRF, File Upload & Path Traversal": level-2/07-ssrf-upload-traversal.md
+      - "08 · Misconfiguration & Vulnerable Components": level-2/08-misconfiguration-components.md
+      - "09 · API Security Testing": level-2/09-api-security-testing.md
+      - "10 · Project — Assessing OWASP Juice Shop": level-2/10-project-juice-shop.md
+  - "Level 3 · Infrastructure & Network Testing":
+      - Overview: level-3/index.md
+      - "01 · Vulnerability Scanning & Validation": level-3/01-vuln-scanning-validation.md
+      - "02 · Exploitation Fundamentals & Metasploit": level-3/02-exploitation-metasploit.md
+      - "03 · Password Attacks & Cracking": level-3/03-password-attacks.md
+      - "04 · Linux Privilege Escalation": level-3/04-linux-privesc.md
+      - "05 · Windows Privilege Escalation": level-3/05-windows-privesc.md
+      - "06 · Active Directory Attack Paths": level-3/06-active-directory.md
+      - "07 · Pivoting & Lateral Movement": level-3/07-pivoting-lateral-movement.md
+      - "08 · Wireless Network Testing": level-3/08-wireless-testing.md
+      - "09 · Social Engineering & Authorized Phishing Simulation": level-3/09-social-engineering.md
+      - "10 · Project — Internal Network Pentest": level-3/10-project-internal-pentest.md
+  - "Level 4 · Professional Practice":
+      - Overview: level-4/index.md
+      - "01 · Post-Exploitation & Evidence Handling": level-4/01-post-exploitation.md
+      - "02 · Writing the Penetration Test Report": level-4/02-writing-the-report.md
+      - "03 · Scoping, Contracts & Rules of Engagement": level-4/03-scoping-roe.md
+      - "04 · Threat Modeling & Attack Surface Mapping": level-4/04-threat-modeling.md
+      - "05 · Cloud Penetration Testing Basics": level-4/05-cloud-pentesting.md
+      - "06 · Mobile Application Testing Basics": level-4/06-mobile-testing.md
+      - "07 · Red Team, Pentest & Bug Bounty Compared": level-4/07-red-team-bug-bounty.md
+      - "08 · Certifications & Career Path": level-4/08-certifications-career.md
+      - "09 · Staying Legal: Law, Disclosure & Ethics": level-4/09-law-disclosure-ethics.md
+      - "10 · Capstone — A Complete Engagement End to End": level-4/10-capstone-full-engagement.md
