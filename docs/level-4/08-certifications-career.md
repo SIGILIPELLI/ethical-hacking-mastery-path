@@ -59,7 +59,7 @@ Few people start *as* a penetration tester. Common routes in:
 1. **Adjacent IT/security roles first** — SOC analyst, sysadmin, network/support, help desk,
    developer. These build the systems knowledge that makes a good tester, and give you a security-
    relevant job while you skill up. (The defensive side is the
-   [Cybersecurity Mastery Path](https://sigilipelli.github.io/cybersecurity-mastery-path/).)
+   [Cybersecurity Mastery Path](https://learnmasterypath.com/cybersecurity-mastery-path/).)
 2. **Junior pentester / security analyst** — once you have an OSCP/PNPT-level skillset and a
    portfolio.
 3. **Specialise** — web, cloud, red team, mobile, exploit dev, hardware — as you find what you enjoy

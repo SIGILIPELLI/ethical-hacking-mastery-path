@@ -9,7 +9,7 @@ understand the network well enough to know what your tools are doing and why a t
 way it does. This lesson is TCP/IP seen from the attacker's chair: not an exhaustive networking
 course, but the parts that explain *why a SYN scan works*, *what an open port actually is*, and
 *what each layer leaks*. The broader
-[Cybersecurity Mastery Path](https://sigilipelli.github.io/cybersecurity-mastery-path/) covers
+[Cybersecurity Mastery Path](https://learnmasterypath.com/cybersecurity-mastery-path/) covers
 defensive network security; here we stay on what a tester needs to drive the next six lessons.
 
 ## The layers, briefly

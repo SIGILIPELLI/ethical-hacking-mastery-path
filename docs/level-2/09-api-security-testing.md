@@ -97,7 +97,7 @@ GraphQL puts one endpoint in front of a typed schema, which changes testing:
 - **Batching** — some servers accept arrays of operations, which can bypass per-request rate limits.
 
 The deeper GraphQL mechanics (resolvers, N+1, DataLoader, federation) are covered in the
-[GraphQL Mastery Path](https://sigilipelli.github.io/graphql-mastery-path/); here the focus is the
+[GraphQL Mastery Path](https://learnmasterypath.com/graphql-mastery-path/); here the focus is the
 security surface.
 
 ## The defences
