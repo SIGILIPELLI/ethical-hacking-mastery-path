@@ -1,13 +1,13 @@
 ---
 title: "License"
-description: "Python Mastery Path content is free to share, adapt, and reuse under Creative Commons Attribution 4.0."
+description: "Ethical Hacking Mastery Path content is free to share, adapt, and reuse under Creative Commons Attribution 4.0."
 ---
 
 # License
 
 _Last updated: 2026-09-04_
 
-All written course content on **Python Mastery Path** — lesson text, explanations,
+All written course content on **Ethical Hacking Mastery Path** — lesson text, explanations,
 diagrams, and exercises — is licensed under the
 **[Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)**.
 
@@ -20,8 +20,8 @@ You are free to:
   even commercially
 
 **No permission needed, no fee, no login required.** The only condition is
-attribution — credit "Python Mastery Path" (or the wider [Mastery Path
-series](https://learnmasterypath.com/python-mastery-path/)) and link back to the
+attribution — credit "Ethical Hacking Mastery Path" (or the wider [Mastery Path
+series](https://learnmasterypath.com/ethical-hacking-mastery-path/)) and link back to the
 original page.
 
 ## Code snippets
@@ -37,7 +37,7 @@ This site is free and always will be. Sharing the underlying content under an
 open license means anyone — a student, another educator, a translator, a
 future version of this project — can reuse and build on it without asking
 first. Access to this page, and to every page on this site, is public: there
-is no account, login, or paywall anywhere on Python Mastery Path.
+is no account, login, or paywall anywhere on Ethical Hacking Mastery Path.
 
 ## Full legal text
 
