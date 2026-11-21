@@ -58,9 +58,11 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/progress-tracker.css
+  - stylesheets/final-quiz.css
 
 extra_javascript:
   - javascripts/progress-tracker.js
+  - javascripts/final-quiz.js
 
 
 
@@ -124,3 +126,5 @@ nav:
       - "08 · Certifications & Career Path": level-4/08-certifications-career.md
       - "09 · Staying Legal: Law, Disclosure & Ethics": level-4/09-law-disclosure-ethics.md
       - "10 · Capstone — A Complete Engagement End to End": level-4/10-capstone-full-engagement.md
+  - "🎯 Final Quiz": quiz.md
+
