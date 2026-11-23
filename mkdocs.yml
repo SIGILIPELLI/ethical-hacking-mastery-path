@@ -80,8 +80,8 @@ not_in_nav: |
 
 nav:
   - Home: index.md
-  - "💼 Interview Questions": interview-questions.md
-  - "📋 Cheat Sheet": cheat-sheet.md
+  - Interview Questions: interview-questions.md
+  - Cheat Sheet: cheat-sheet.md
   - "Level 1 · Foundations & Legal Lab":
       - Overview: level-1/index.md
       - "01 · What Ethical Hacking Is — Authorization, Scope & the Law": level-1/01-what-ethical-hacking-is.md
@@ -130,5 +130,5 @@ nav:
       - "08 · Certifications & Career Path": level-4/08-certifications-career.md
       - "09 · Staying Legal: Law, Disclosure & Ethics": level-4/09-law-disclosure-ethics.md
       - "10 · Capstone — A Complete Engagement End to End": level-4/10-capstone-full-engagement.md
-  - "🎯 Final Quiz": quiz.md
+  - Final Quiz: quiz.md
 
