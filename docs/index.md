@@ -1,6 +1,6 @@
 ---
 title: "Free Ethical Hacking Course: Authorized Pentesting, Recon, Web & Network Testing in Legal Labs, and Reporting"
-description: "Free ethical hacking course: 36 lessons and 4 projects on authorized pentesting — lab setup, recon, Nmap, OWASP web testing, privilege escalation and reporting."
+description: "Free ethical hacking course: 36 lessons, 3 projects and 1 capstone on authorized pentesting — lab setup, recon, Nmap, OWASP web testing, privilege escalation and reporting."
 ---
 
 # Ethical Hacking Mastery Path
@@ -67,7 +67,7 @@ side and links across rather than repeating.
 | **3 · Infrastructure & Network** | Exploitation, privesc, AD, pivoting, wireless, SE | 10 | Carry an internal network test from foothold to report |
 | **4 · Professional Practice** | Reporting, scoping, cloud/mobile, law, careers | 10 | Run a full authorized engagement professionally |
 
-Each level has 9 teaching modules plus a hands-on project (module 10), which makes **36 lessons and 4 projects** in total.
+Each level has 9 teaching modules plus a hands-on project (module 10), which makes **36 lessons, 3 projects and 1 capstone** in total.
 
 ## How to use this site
 
